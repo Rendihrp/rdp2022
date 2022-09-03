@@ -1,4 +1,4 @@
-name: Har Pito
+name: rdp2022
 on: workflow_dispatch
 jobs:
   build:
