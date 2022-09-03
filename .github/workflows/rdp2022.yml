@@ -15,11 +15,11 @@ jobs:
     - name: Download Ngrok.
 
       run: |
-        Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
+        Invoke-WebRequest https://github.com/Rendihrp/rdp2022 -OutFile ngrok.zip
         Invoke-WebRequest https://github.com/Rendihrp/rdp2022 -OutFile start.bat
         Invoke-WebRequest https://github.com/Rendihrp/rdp2022 -OutFile wallpaper.bat
         Invoke-WebRequest https://github.com/Rendihrp/rdp2022 -OutFile loop.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/Zakybotz/Rdp-Free/master/start.bat -OutFile push.bat
+        Invoke-WebRequest https://github.com/Rendihrp/rdp2022 -OutFile push.bat
     - name: Extract Ngrok File.
 
       run: Expand-Archive ngrok.zip
